@@ -34,4 +34,22 @@ class Teacher {
   }
 }
 
+// Defines a class for School
+class School {
+  // Method to create objects of Student and Teacher classes and print their information
+  void createObjectsAndPrintInfo() {
+    // Create an instance of Student with name 'John', age 15, and grade level '10th'
+    var student = Student('John', 15, '10th');
+    // Create an instance of Teacher with name 'Ms. Smith', age 35, and subject 'Math'
+    var teacher = Teacher('Ms. Smith', 35, 'Math');
+
+    // Call the printInfo method of Student to print student information
+    student.printInfo();
+    // Print a newline for separation
+    print('\n');
+    // Call the printInfo method of Teacher to print teacher information
+    teacher.printInfo();
+  }
+}
+
 void main(List<String> arguments) {}
