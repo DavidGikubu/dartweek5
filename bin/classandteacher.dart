@@ -52,4 +52,9 @@ class School {
   }
 }
 
-void main(List<String> arguments) {}
+void main(List<String> arguments) {
+  // Create an instance of School class
+  var school = School();
+  // Call the createObjectsAndPrintInfo method of School to execute the program
+  school.createObjectsAndPrintInfo();
+}
