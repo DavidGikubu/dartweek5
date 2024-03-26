@@ -16,4 +16,22 @@ class Student {
   }
 }
 
+// Defines a class for Teacher
+class Teacher {
+  String name; // Name of the teacher
+  int age; // Age of the teacher
+  String subject; // Subject taught by the teacher
+
+  // Constructor for Teacher class
+  Teacher(this.name, this.age, this.subject);
+
+  // Method to print teacher information
+  void printInfo() {
+    print('Teacher Information:');
+    print('Name: $name');
+    print('Age: $age');
+    print('Subject: $subject');
+  }
+}
+
 void main(List<String> arguments) {}
